@@ -23,12 +23,13 @@ body {
   margin:15px auto 30px auto;
   font-size:0.8em;
   color:#fff;
+}
   a {
     font-weight:500;
     text-decoration:none;
     color:#fff;
   }
-}
+
 .quote-box {
   border-radius:3px;
   position:relative;
@@ -37,12 +38,13 @@ body {
   padding:40px 150px;
   display:table;
   background-color:#009933;
-   
-  .quote-text {
-    i{
-      font-size:1.0em;
-      margin-right: 1.0em;
-    }
+} 
+  
+i{
+   font-size:1.0em;
+   margin-right: 1.0em;
+}
+.quote-text {
     text-align:center;
     width:450px;
     height:auto;
@@ -63,6 +65,7 @@ body {
     margin:auto;
     display:block;
     text-align:center;
+}
     .button {
       height:38px;
       border:none;
@@ -76,13 +79,12 @@ body {
       opacity:1;
       cursor:pointer;
       text-align:left;
-      &:hover {
+    }
+      .button:hover {
         opacity:0.9;
       }
-    }
-  }
-  
-}
+       
+     
 h1{
   color:#fff;
   text-align:center;
